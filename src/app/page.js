@@ -6,6 +6,7 @@ import React, { useState } from "react";
 const IndexPage = () => {
   const [url,seturl] = useState("")
   const [fetchCode,setFetchCode] = useState("")
+  // eslint-disable-next-line no-unused-vars
   const [lintingResults, setLintingResults] = useState("");
 
 
@@ -31,6 +32,7 @@ const IndexPage = () => {
   console.log("gitlog",fetchCode);
 
 
+  // eslint-disable-next-line no-unused-vars
   async function lintReactCode() {
     if (!url) {
       alert("Please enter some React code.");
